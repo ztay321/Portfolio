@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/3dced654c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+
+                <div class="right-side">
+                    <h1>Hi, <p>I'm <span>Yatee</span> Sukhani</p> from Gurugram</h1>
+                </div>
+                <div class="left-side">
+                    <img style=" width:600px;height:500px;" src="Images/yatee4.png"
+                        title="Logo" class="logo-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/mypic5.jpg" title="Yatee">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me<Menu:context></Menu:context>
+                    </h1>
+                    <p>
+                        I am 20 years old, Btech student studying Information Technology at National Institute of
+                        Technology,Kurukshetra.
+                        I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+                        things; the more, the better.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Data Structures and Algorithms</span><br>Problem Solving</li>
+                            <li><span>Frontend-Web-developer</span><br>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                                <li>ReactJs</li>
+                            </ul></li>
+                            <li><span>Languages :</span></li>
+                            <ul>C++</ul>
+                            
+                            <ul>JavaScript</ul>
+                            <ul>C</ul>
+
+                            <li><span>Course-work</span></li>
+                            <ul>
+                                <li>Algorithms Analysis</li>
+                                <li>Database Management</li>
+                                <li>Operating Systems</li>
+                                <li>Object Oriented Programming</li>
+                                <li>Computer Network</li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>BTech in Information Technology at NIT Kurukshetra</li>
+                            <li><span>2019 - 2021</span><br>12th from <a style="text-decoration:none;color:white"
+                                    href="http://ais.amity.edu/gurugram46/class-xii-2020-2021/">Amity International
+                                    School,Sec-46,Gurugram</a> CBSE:98.4%</li>
+                            <li><span>2007 - 2019</span><br>10th from <a style="text-decoration:none;color:white"
+                                    href="http://ais.amity.edu/gurugram46/result-analysis-2018-19-class-x-cbse/ Amity International School">Amity
+                                    International School,Sec-46,Gurugram</a> CBSE:99.4%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Speaker at <a target="_blank" href="https://www.youtube.com/watch?v=2HPCKznzr2U&t=1s" style="color:#ff004f">Ted-Ed</a> Talks for
+                                Students </li>
+                            <li>Member of Technobyte,Official Technical Society of Computer Science </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------services-------------->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1><br>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>description of the first service</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>description of the second service</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p>description of the third service</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-------------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Movies.png" title="work1">
+                    <div class="layer">
+                        <h3>Trendflix</h3>
+                        <p> A movies project, incorporating filtering features on the basis of genre and rating and
+                            fetching data from
+                            API.Mobile version also available</p>
+                        <!-- <a href="#" title="Link"></a> -->
+                        <a href="https://github.com/ztay321/Trendflix" title="link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/news.jpeg" title="work2">
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>Stay informed with curated news! This website filters news into categories for fetching news
+                            and delivering relevant stories.</p>
+                        <a href="https://github.com/ztay321/NewsApp" title="link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+             
+            </div>
+            <div class="row">
+             
+                <a href="Yatee_Resume.pdf" target="_blank" class="btn ">Resume</a>
+               
+          
+               <a href="https://github.com/ztay321" class="btn">See more</a>
+       
+           </div>
+
+    <!----------contact ---------->
+    <div id="contact">
+        <div class="container">
+          
+           
+            <!-- <div class="contact-right"> -->
+            <div class="contact" id="contact-me">
+                <div class="container">
+                    <div class="contact-content">
+                        <img style="height:300px;width:300px;" src="Images/mypic3 - Copy.jpg">
+                        <h1 style="padding-bottom:50px" class="sub-title">Contact Me</h1>
+                        <p class="mail" >
+                            Get in touch with me <i class="fas fa-arrow-right"></i> <span style="color:#ff004f">yateesukhani@gmail.com</span>
+                        </p>
+                        <br>
+                        <br>
+                        <p class="links">Or find me on:</p>
+                        <br>
+                        
+                        <a href="https://www.linkedin.com/in/yatee-sukhani-795596226/" target="_blank"><i
+                                class="fab fa-linkedin"></i>
+                            Linkedin</a>
+
+                        <a href="https://github.com/ztay321" target="blank"><i class="fab fa-github"></i>
+                            Github</a>
+
+                        <a href="https://twitter.com/code_Yatee" target="blank"><i class="fab fa-twitter">
+                            </i>Twitter</a>
+                        <a href="https://www.instagram.com/yatee.sukhani/" target="blank"><i
+                                class="fab fa-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yatee<i class="fa-solid fa-heart"></i>.</p>
+    </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
